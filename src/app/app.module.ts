@@ -14,8 +14,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NzTableModule } from 'ng-zorro-antd/table';
-import { LoginComponent } from './pages/login/login/login.component';
-import { SignupComponent } from './pages/signup/signup/signup.component';
+import { LoginComponent } from './pages/auth/components/login/login.component';
+import { SignupComponent } from './pages/auth/components/signup/signup.component';
 
 registerLocaleData(en);
 
