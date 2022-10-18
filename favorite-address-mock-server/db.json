@@ -1,0 +1,72 @@
+{
+  "public-addresses": [
+    {
+      "id": 1,
+      "name": "Home",
+      "address": "No. 101, North Kargar St., Tehran",
+      "latitude": 35.720179,
+      "longitude": 51.389634
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "address": "No. 20, West Ferdows St., Tehran",
+      "latitude": 35.729139,
+      "longitude": 51.300281
+    }
+  ],
+  "users": [
+    {
+      "email": "alirezaebrahimkhanidev@gmail.com",
+      "password": "$2a$10$driFkgAJ7URSzHmDL0vfRu1UFm4e.lmaZnMPGpF8DdkJrwhlXV5sq",
+      "username": "Alireza Ebrahimkhani",
+      "phoneNumber": "09198438113",
+      "id": 1
+    },
+    {
+      "email": "hamidrezaKarami@gmail.com",
+      "password": "$2a$10$zfw.t1/1nCnknFKEf4Qhi.6A4VEhMNOX.TyFJnyvpK4L6IcVG7Oee",
+      "username": "Hamidreza karami",
+      "id": 2
+    },
+    {
+      "email": "sina7312@gmail.com",
+      "password": "$2a$10$SkF/1JvPt/YXM3qK4lWVZOC/VS7rjkKLr0aG00gLztsXjXjNmkjDy",
+      "username": "Sina Aqhajani",
+      "phoneNumber": "09225775725",
+      "id": 3,
+      "userId": 3
+    },
+    {
+      "email": "omid@gmail.com",
+      "password": "$2a$10$aTmfEXCZL/ZUzGNVgXYb8.YqM1v2e5vuVzMCzCOhPkBjmrIVlH/nm",
+      "name": "Omid",
+      "phoneNumber": "Farzadian",
+      "id": 4
+    },
+    {
+      "email": "hamidrezakarami16@gmail.com",
+      "password": "$2a$10$RkqwpM0o/DJV55EoCTYN8elik09p5LPGFgkC0Gev26K/dF5tcwPnS",
+      "username": "Hamidreza Karami",
+      "phoneNumber": "09225775724",
+      "id": 5
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$xaO867Ba1HPsOG50ebA/0Oe9CA5RTk/.6yUx5sN8DB/oLHdChR3sS",
+      "username": "asdasd",
+      "phoneNumber": "123123",
+      "id": 6
+    }
+  ],
+  "favorite-addresses": [
+    {
+      "id": 2,
+      "userId": "1",
+      "name": "Uni",
+      "address": "Tehran",
+      "latitude": 35.69428421618588,
+      "longitude": 51.41550064086914
+    }
+  ]
+}

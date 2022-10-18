@@ -6,6 +6,16 @@ import { AddressCardComponent } from './pages/main/components/address-card/addre
 import { HeaderComponent } from './layout/components/header/header.component';
 import { FooterComponent } from './layout/components/footer/footer.component';
 import { NotificationComponent } from './shared/components/notification/notification.component';
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NzTableModule } from 'ng-zorro-antd/table';
+
+registerLocaleData(en);
 
 @NgModule({
   declarations: [
@@ -16,9 +26,15 @@ import { NotificationComponent } from './shared/components/notification/notifica
     NotificationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NzTableModule
   ],
-  providers: [],
+  providers: [
+    { provide: NZ_I18N, useValue: en_US }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
